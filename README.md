@@ -20,16 +20,14 @@ I am an engineer with specialized expertise in machine learning and data science
 ## Education
 
 **MSc in Microsystems and Microelectronics (MEMS)**
-Technology University Hamburg (TUHH)/Graduated: Feb 2024
-- Masters Project: New product Development strategy: Topic modelling based 
-on Latent Dirichlet Allocation Algorithms (**NLP**).
-- Master Thesis: Noise detection in High Density Point Cloud Data from a White Light Interferometer using **deep learning**. 
+Technology University Hamburg (TUHH)
+- Masters Project: Built a research paper database using SQL on MySQL Server (**SQL**).
+- Master Thesis: Data driven analysis on shipping schedule on top 5 maritime companies **deep learning**. 
 - Focus: **Machine Learning**, and **Data Science** 
 
 **BSc in Electrical and Electronic Engineering (EEE)**
-American International University – Bangladesh (AIUB)/Graduated: Feb 2016
-- Bachelor Thesis: Mapping of Mammalian Purkinje Network on an Electrically Equivalent Circuit
-- Focus: Electronics and Image Data 
+American International University – Bangladesh (AIUB)/Graduated: December 2014
+
 
 ---
 ## Interests
