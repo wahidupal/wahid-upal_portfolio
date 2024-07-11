@@ -10,28 +10,28 @@ layout: home
 </div>
 
 
-Welcome to my portfolio page, where I showcase my expertise in building interactive dashboards using Python and several of its powerful libraries and frameworks. My projects are centered around leveraging Plotly Dash, Streamlit, SQL and PowerBI to transform complex datasets into actionable insights through intuitive visualizations.
+Welcome to my portfolio page, where I highlight my proficiency in constructing interactive dashboards using Python and its robust libraries and frameworks. My projects emphasize utilizing Plotly Dash, Streamlit, SQL, and PowerBI to transform intricate datasets into actionable insights through user-friendly visualizations.
 
 ## About Me
 
-I am a data analyst with a passion for exploring data and revealing its stories. With A master's degree in Engineering combined with my practical experience in data analytics enables me to craft solutions that drive decision-making processes.
+I am a data analyst driven by a passion for uncovering insights from data. Holding a Master's degree in Engineering, coupled with practical experience in data analytics, I excel at crafting solutions that enhance decision-making processes.
 
 ---
 ## Expertise
 
-- **Programming**: Python, R, Bash, C++
-- **Data Science**: SQL, Power BI, Excel, STATA
-- **Machine Learning**: TensorFlow, Keras, Pytorch
-- **Visualization & Interfaces**: Power BI, OpenCV, Streamlit, Plotly, Dash, Matplotlib
+- **Programming**: Python, R, Bash
+- **Data Science**: SQL, Power BI, Excel, PowerQuery
+- **Machine Learning**: TensorFlow, Pytorch
+- **Visualization & Interfaces**: Power BI, OpenCV, Streamlit, Plotly, Matplotlib
 - **Tools & VCS**: Git, CLI
 - **Analytics**: Data Visualization, Finding Key Performance Indicators (KPIs)
+- **Database**: BigQuery, MySql
 
 ---
 
 ## Interests
 
 I am passionate about:
-- **Machine learning**
 - **Databases**
 - **Data Analytics**
 - **Data Science**
