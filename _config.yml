@@ -2,14 +2,14 @@ title: Wahidur Rahman Upal
 #email: wahidur.upal
 description: >- # this means to ignore newlines until "baseurl:"
   
-#https://khandoker09.github.io/khandoker/
+#https://github.com/wahidupal
 show_excerpts: false # set to true to show excerpts on the homepage
-baseurl: "/datascience_portfolio" # the subpath of your site, e.g. /blog
-url: "https://khandoker09.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/wahid-upal_portfolio" # the subpath of your site, e.g. /blog
+url: "https://wahidupal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 
-#github_username:  Khandoker09
-#linkedin: tanjim-ahammad-869061176
+#github_username:  wahidupal
+#linkedin: www.linkedin.com/in/wahid-upal1408
 # Build settings
 #theme: minima
 plugins:
@@ -28,7 +28,6 @@ minima:
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    #linkedin: tanjim-ahammad-869061176
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
