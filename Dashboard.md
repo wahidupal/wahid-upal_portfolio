@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<div style="background: url('https://www.datascienceportfol.io/static/profile_pics/pr0_80F3EE3F5BEBCB9D617D.JPG') no-repeat center center; background-size: contain; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
+<div style="background: url('Images/DataSense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
     <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
 </div>
 
