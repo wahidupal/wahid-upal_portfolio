@@ -15,13 +15,13 @@ Feel free to reach out to me for any inquiries, collaborations, or just to say h
 ## Address
 
 **Hamburg, Germany**  
-21135
+21073
 
 ## Social Media
 
 While this section does not currently include specific links, you can add your social media handles as follows if applicable:
 
-- [**LinkedIn**](https://www.linkedin.com/in/wahid-upal1408)
+- [**LinkedIn**](www.linkedin.com/in/wahidupal)
 - [**GitHub**](https://github.com/wahidupal)
 
 ## Additional Information
