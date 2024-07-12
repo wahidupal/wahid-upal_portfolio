@@ -14,7 +14,7 @@ Welcome to my portfolio page, where I highlight my proficiency in constructing i
 
 ## About Me
 
-I am a data analyst driven by a passion for uncovering insights from data. Holding a Master's degree in Engineering, coupled with practical experience in data analytics, I excel at crafting solutions that enhance decision-making processes.
+I am a data analyst driven by a passion for uncovering insights from data. Currently working on my Master's thesis in Engineering, I combine my academic background with practical experience in data analytics to develop solutions that enhance decision-making processes.
 
 ---
 ## Expertise

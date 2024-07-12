@@ -4,11 +4,11 @@ layout: page
 ---
 
 
-<div style="background: url('Images/DataSense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
+<div style="background: url('Images/DataSense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
     <h1 style="color: white; text-shadow: 2px 2px 2px rgba(0,0,0,0.5);"></h1>
 </div>
 
-# 1. [Simple App to Visualize Excel Data (DataLense)](https://github.com/wahidupal/DataSense)
+# 1. [Data Visualization Tool (DataSense)](https://github.com/wahidupal/DataSense)
 **Simple data analysis tool with some visualization options using Streamlit.**
 
 You can upload your own datasets in this app. However, there are some limitations; you can only upload files one at a time and are limited to 200MB or below.
@@ -25,7 +25,7 @@ This app has two analysis options which are the following:
 #### Overall Columns
 You can check the datasets by dropping whichever columns you want. Also, you can sort the columns by clicking the column name in the table.
 
-<div style="background: url('Images/TradeLense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
+<div style="background: url('Images/TradeLense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
     <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
 </div>
 
