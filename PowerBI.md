@@ -29,7 +29,7 @@ An interactive PowerBI dashboard providing a comprehensive overview of key web m
 This dashboard aids in monitoring website performance and identifying user behavior trends efficiently.
 
 
-<div style="background: url('Images/Healthcare Dashboard.JPG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 300px 0; background-color: black;">
+<div style="background: url('Images/Healthcare Dashboard.JPG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 250px 0; background-color: black;">
     <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
 </div>
 
