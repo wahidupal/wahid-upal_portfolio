@@ -5,7 +5,7 @@ layout: page
 
 
 
-<div style="background: url('Images/DataSense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 250px 0; background-color: black;">
+<div style="background: url('Images/DataSense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 150px 0; background-color: black;">
     <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
 </div>
 # 1. [Data Visualization Tool (DataSense)](https://github.com/wahidupal/DataSense)
@@ -26,7 +26,7 @@ This app has two analysis options which are the following:
 You can check the datasets by dropping whichever columns you want. Also, you can sort the columns by clicking the column name in the table.
 
 
-<div style="background: url('Images/TradeLense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 250px 0; background-color: black;">
+<div style="background: url('Images/TradeLense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 200px 0; background-color: black;">
     <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
 </div>
 # 2. [TradeLens: Interactive App for New York stock market analysis](https://github.com/wahidupal/TradeLens)
