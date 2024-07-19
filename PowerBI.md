@@ -33,7 +33,7 @@ This dashboard aids in monitoring website performance and identifying user behav
     <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
 </div>
 
-### Healthcare Wait List Dashboard
+# 2. [Healthcare Wait List Dashboard](https://github.com/wahidupal/Healthcare-Data-Analysis-PowerBI)
 
 An interactive PowerBI dashboard providing a comprehensive analysis of patient wait lists by case type, age profile, and specialty.
 
