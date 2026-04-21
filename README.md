@@ -18,8 +18,8 @@ I am a data analyst driven by a passion for uncovering insights from data. Curre
 - **Data Science**: SQL, Power BI, Excel, PowerQuery
 - **Machine Learning**: TensorFlow, Pytorch
 - **Visualization & Interfaces**: Power BI, OpenCV, Streamlit, Plotly, Matplotlib
-- **Tools & VCS**: Git, CLI
-- **Analytics**: Data Visualization, Finding Key Performance Indicators (KPIs)
+- **Tools & VCS**: Git, CLI, Make.com, Zapier
+- **Analytics**: Data Visualization, Data Cleaning, Validation & Quality Checks, Finding Key Performance Indicators (KPIs), Anomaly Detection & Data Consistency Analysis
 - **Database**: BigQuery, MySql
 
 ---
