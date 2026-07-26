@@ -3,7 +3,9 @@ title: Python Applications
 layout: page
 ---
 
-<div style="background: url('Images/datasense.JPG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 150px 0; background-color: black;">
+<div style="text-align:center;">
+    <img src="Images/datasense.JPG" 
+         style="max-width:100%; height:auto; box-shadow:0 4px 4px rgba(0,0,0,0.1);">
 </div>
 
 
