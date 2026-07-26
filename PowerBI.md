@@ -1,5 +1,5 @@
 ---
-title: PowerBI
+title: 📊 Power BI Dashboards
 layout: page
 ---
 
