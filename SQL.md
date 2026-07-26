@@ -1,5 +1,5 @@
 ---
-title: Data Engineering Projects
+title:⚙️ Data Engineering Projects
 layout: page
 ---
 
