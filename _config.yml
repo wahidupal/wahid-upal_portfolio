@@ -1,18 +1,14 @@
 title: Wahidur Rahman Upal
 
-description: >-
-  Data Engineering and Analytics Portfolio
-
-baseurl: "/wahid-upal_portfolio"
-url: "https://wahidupal.github.io"
-
-show_excerpts: false
-
-theme: minima
+description: >- Data Engineering and Analytics Portfolio
+  
+#https://github.com/wahidupal
+show_excerpts: false # set to true to show excerpts on the homepage
+baseurl: "/wahid-upal_portfolio" # the subpath of your site, e.g. /blog
+url: "https://wahidupal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 minima:
   date_format: "%b %-d, %Y"
@@ -26,3 +22,9 @@ header_pages:
  - PowerBI.md
  - education_research.md
  - contact.md
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
