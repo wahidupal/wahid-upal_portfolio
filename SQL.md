@@ -13,7 +13,7 @@ The projects demonstrate practical experience with **SQL-based data warehousing,
 
 # SQL Data Warehouse & Analytics Engineering Project
 
-[GitHub Repository](Link)
+[GitHub Repository](https://github.com/wahidupal/SQL_Data_Warehouse_Project)
 
 ## Project Overview
 
