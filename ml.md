@@ -1,36 +1,153 @@
 ---
-title: Machine learnnig project
+title: AI & Automation Projects
 layout: page
 ---
 
-
-
 <div style="background: url('Images/StreamScraper.JPG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 300px 0;">
-    <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
 </div>
 
-# 1. [AI Web Scraper using Streamlit, Selenium, and LangChain-Ollama (StreamScraper)](https://github.com/wahidupal/StreamScraper)
-**Overview:**
-This project implements a dynamic web scraping and parsing tool using **Streamlit** for the frontend, **Selenium** and **BeautifulSoup** for web scraping, and **LangChain-Ollama** for content parsing and information extraction. The app allows users to input a website URL, scrape its content, and extract useful information by providing a parsing description. The tool is powerful, user-friendly, and designed to provide efficient data extraction for various use cases.
+# StreamScraper: AI-Assisted Web Content Extraction Tool
 
-### Key Features
+[GitHub Repository](https://github.com/wahidupal/StreamScraper)
 
-- **Website Scraping**: Utilizes Selenium to scrape the HTML content from any given website.
-- **Content Parsing**: Extracts and processes the HTML body content and removes unwanted script and style tags.
-- **AI-Powered Parsing**: Uses the Ollama model through LangChain to parse the DOM content according to user-specified descriptions.
-- **Interactive Web App**: Built with Streamlit to provide an intuitive and easy-to-use interface.
-- **Error Handling**: Ensures that the application remains stable with informative messages for the user.
+## Project Overview
 
-### User Instructions
+StreamScraper is a Python-based web extraction and content analysis application designed to collect information from websites and transform unstructured web content into meaningful summaries.
 
-To run this app, you need to install the **Ollama AI** on your local machine. Please follow these steps:
+The project started as a traditional web scraping application and evolved into an AI-assisted workflow by integrating a locally hosted Llama model through Ollama.
 
-1. Go to the official website [here](https://ollama.com/download) and download Ollama.
-2. After downloading, follow the installation instructions on the [Ollama GitHub page](https://github.com/ollama/ollama) to install the **llama3.1** model.
+The application combines:
 
-**Important Notes:**
-- This app includes a 20-second sleep period because you'll need to manually accept cookies when prompted by the website.
-- This app will **not work** for websites that require CAPTCHA verification.
+- Web automation
+- HTML parsing
+- Data extraction
+- Local LLM-based text summarization
+- Interactive user interfaces
 
+---
 
+# Project Evolution
 
+## Version 1: Web Scraping Pipeline
+
+The initial version focused on extracting and processing web content automatically.
+
+Key capabilities:
+
+- Website content extraction using Selenium
+- HTML parsing using BeautifulSoup
+- Removal of unnecessary elements such as scripts and styles
+- Preparation of cleaned text data for further processing
+
+Technologies:
+
+- Python
+- Selenium
+- BeautifulSoup
+
+---
+
+## Version 2: Local LLM Integration
+
+The project was extended by integrating a locally hosted Llama model using Ollama.
+
+The objective was to explore how locally deployed AI models can assist data processing workflows while keeping the processing environment private and independent from external APIs.
+
+Additional capabilities:
+
+- Automated text summarization
+- AI-assisted content interpretation
+- Local LLM inference through LangChain integration
+
+Technologies:
+
+- Ollama
+- Llama
+- LangChain
+
+---
+
+## Version 3: Interactive Streamlit Application
+
+The latest version introduced a user-friendly interface for managing the scraping and analysis workflow.
+
+Features:
+
+- Multi-page Streamlit application
+- Different scraping workflows
+- Interactive URL input
+- Integrated extraction and summarization pipeline
+- User-friendly error handling
+
+Technologies:
+
+- Streamlit
+- Python
+
+---
+
+# Application Workflow
+
+```
+Website URL
+      |
+      ↓
+Web Scraping Layer
+(Selenium + BeautifulSoup)
+      |
+      ↓
+Content Cleaning
+      |
+      ↓
+Local LLM Processing
+(Ollama + Llama)
+      |
+      ↓
+Generated Summary
+```
+
+---
+
+# Technical Challenges
+
+## Processing Unstructured Web Data
+
+Web pages contain a mixture of useful content and unnecessary elements.
+
+The application handles:
+
+- HTML extraction
+- Content cleaning
+- Removing irrelevant page elements
+- Preparing text for AI processing
+
+## Local AI Deployment Constraints
+
+Running LLMs locally introduces hardware limitations.
+
+The application was designed to remain lightweight by focusing on targeted summarization rather than large-scale model operations.
+
+---
+
+# Technology Stack
+
+- Python
+- Streamlit
+- Selenium
+- BeautifulSoup
+- LangChain
+- Ollama
+- Llama
+- HTML Parsing
+
+---
+
+# Skills Demonstrated
+
+- Web Scraping
+- Data Extraction Pipelines
+- Automation
+- Unstructured Data Processing
+- LLM Integration
+- Python Application Development
+- AI-assisted Workflow Design
