@@ -104,7 +104,7 @@ The model follows Star Schema principles and contains:
 
 # ETL Pipeline
 
-![ETL Pipeline](Images/etl.png)
+![ETL Pipeline](Images/ETL.png)
 
 The data pipeline automates the movement of data through different warehouse layers.
 
