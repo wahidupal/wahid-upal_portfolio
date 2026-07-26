@@ -1,5 +1,5 @@
 ---
-title: Education & Research
+title: 🎓 Education & Research
 layout: page
 ---
 
