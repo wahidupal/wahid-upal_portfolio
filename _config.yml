@@ -15,7 +15,6 @@ minima:
   skin: dark
 
 header_pages:
- - Home.md
  - data_engineering.md
  - python_applications.md
  - ai_automation.md
