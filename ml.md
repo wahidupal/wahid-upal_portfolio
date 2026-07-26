@@ -1,5 +1,5 @@
 ---
-title: AI & Automation Projects
+title: 🤖 AI & Automation Projects
 layout: page
 ---
 
