@@ -1,5 +1,5 @@
 ---
-title: Python Applications
+title: 🐍 Python Applications
 layout: page
 ---
 
