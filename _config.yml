@@ -1,69 +1,28 @@
 title: Wahidur Rahman Upal
-#email: wahidur.upal
-description: >- # this means to ignore newlines until "baseurl:"
-  
-#https://github.com/wahidupal
-show_excerpts: false # set to true to show excerpts on the homepage
-baseurl: "/wahid-upal_portfolio" # the subpath of your site, e.g. /blog
-url: "https://wahidupal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
 
-#github_username:  wahidupal
-#linkedin: www.linkedin.com/in/wahid-upal1408
-# Build settings
-#theme: minima
-plugins:
-  - jekyll-feed
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
-  skin: dark
-  # generate social links in footer
-  #social_links:
-    #twitter: jekyllrb
-    #github:  jekyll
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
+description: >-
+  Data Engineering and Analytics Portfolio
 
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+baseurl: "/wahid-upal_portfolio"
+url: "https://wahidupal.github.io"
 
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+show_excerpts: false
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
- - Home.md
- - Dashboard.md
- - SQL.md
- - PowerBI.md
- - ml.md
- - education.md
- - contact.md
-# Build settings
 theme: minima
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  date_format: "%b %-d, %Y"
+  skin: dark
+
+header_pages:
+ - Home.md
+ - data_engineering.md
+ - python_applications.md
+ - PowerBI.md
+ - ai_automation.md
+ - education_research.md
+ - contact.md
