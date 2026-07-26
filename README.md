@@ -1,8 +1,3 @@
----
-title: Home
-layout: home
----
-
 <div style="background: url('Images/Designer.png') no-repeat center center; background-size: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 100px 20px;">
     <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
         Wahidur Rahman Upal
