@@ -12,7 +12,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+sass:
+  sass_dir: assets
 minima:
   date_format: "%b %-d, %Y"
   skin: dark
