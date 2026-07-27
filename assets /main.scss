@@ -3,14 +3,10 @@
 
 @import "minima";
 
+body {
+  border-top: 20px solid red !important;
+}
+
 .site-title {
   font-size: 50px !important;
-}
-
-body {
-  background-color: red !important;
-}
-
-.page-content {
-  max-width: 1400px !important;
 }
