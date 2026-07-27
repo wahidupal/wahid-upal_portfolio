@@ -3,10 +3,51 @@
 
 @import "minima";
 
-body {
-  border-top: 20px solid red !important;
+/* Increase overall content width */
+.wrapper {
+  max-width: 1200px;
 }
 
-.site-title {
-  font-size: 50px !important;
+/* Improve readability */
+.page-content {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Better headings */
+h1 {
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+/* Improve code blocks */
+pre,
+code {
+  border-radius: 8px;
+}
+
+/* Better navigation spacing */
+.site-nav .page-link {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+/* Improve portfolio image banners */
+.page-content img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* Better links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
