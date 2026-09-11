@@ -1,244 +1,138 @@
 ---
+
 title: ⚙️ Data Engineering Projects
 layout: page
----
+------------
 
 # Data Engineering Projects
 
-This section showcases projects focused on designing reliable data systems, building transformation pipelines, and preparing structured datasets for analytical use cases.
-
-The projects demonstrate practical experience with **SQL-based data warehousing, ETL development, data modelling, data quality validation, and analytics engineering principles.**
+This section showcases practical data engineering projects covering **data ingestion, ETL pipelines, data quality, data warehousing, dimensional modelling, and analytics engineering**.
 
 ---
 
-# SQL Data Warehouse & Analytics Engineering Project
+# 🚕 NYC TLC Data Engineering Pipeline
+
+**Featured Data Engineering Project**
+
+[GitHub Repository](https://github.com/wahidupal/NYC_TLC_DE_Project)
+
+## Project Overview
+
+An end-to-end data engineering project that ingests, validates, transforms, and models **26.6M+ NYC transportation trip records** from four heterogeneous TLC datasets into a PostgreSQL data warehouse.
+
+The pipeline processes **Yellow Taxi, Green Taxi, FHV, and FHVHV** trip data using Python and DuckDB for ingestion and transformation, followed by layered processing and dimensional modelling in PostgreSQL.
+
+The project focuses on building a reliable data pipeline while preserving source characteristics, identifying data-quality issues, and separating objectively invalid records from unusual but potentially valid observations.
+
+### Key Engineering Work
+
+* Multi-source ingestion of heterogeneous TLC datasets
+* Python and DuckDB-based source processing
+* PostgreSQL data warehouse implementation
+* Source-preserving staging layer
+* Data cleaning and standardization
+* Extensive data-quality validation
+* Investigation of timestamp, duration, financial, location, and distance anomalies
+* Service-specific fact tables with shared dimensions
+* Star-schema dimensional modelling
+* Daily, hourly, zone, and route analytics models
+* Source-to-target reconciliation
+* Reproducible local pipeline execution
+
+
+### Architecture
+
+![NYC TLC Data Engineering Architecture](images/nyc_tlc_full_pipeline.png)
+
+**Source Data → Python + DuckDB → PostgreSQL Staging → Cleaned → Gold Dimensional Model → Analytics**
+
+The pipeline separates source preservation, data-quality handling, dimensional modelling, and analytical workloads into distinct processing stages:
+
+* **Staging:** Preserves source data and structure for traceability and reconciliation
+* **Cleaned:** Standardizes schemas, applies objective quality rules, and creates derived fields
+* **Gold:** Provides service-specific fact tables with shared `dim_date` and `dim_location` dimensions
+* **Analytics:** Provides reusable daily, hourly, zone, and route models at defined analytical grains
+
+
+### Technology Stack
+
+**Python · DuckDB · PostgreSQL · Pandas · SQL · Git**
+
+[View the detailed project documentation](https://github.com/wahidupal/NYC_TLC_DE_Project)
+
+---
+
+# 🏢 SQL Data Warehouse & Analytics Engineering
+
+**Guided Portfolio Project**
 
 [GitHub Repository](https://github.com/wahidupal/SQL_Data_Warehouse_Project)
 
 ## Project Overview
 
-This project demonstrates the design and implementation of a complete SQL-based data warehouse solution using CRM and ERP source datasets.
+A SQL Server-based data warehouse project integrating CRM and ERP source datasets through a structured **Bronze, Silver, and Gold architecture**.
 
-The objective was to transform raw operational data into clean, reliable, and analysis-ready datasets through a structured ETL pipeline and dimensional modelling approach.
+The project focuses on SQL-based ETL development, data transformation, dimensional modelling, and preparation of analytical datasets for reporting and business analysis.
 
-The warehouse follows a **Medallion Architecture** consisting of three layers:
+### Key Engineering Areas
 
-- **Bronze Layer:** Raw data ingestion
-- **Silver Layer:** Data cleaning, transformation, and validation
-- **Gold Layer:** Business-ready analytical views following Star Schema principles
+* Multi-source CRM and ERP data integration
+* Bronze, Silver, and Gold warehouse architecture
+* SQL-based ETL pipelines
+* Data cleaning and standardization
+* Data-quality validation
+* Dimensional modelling
+* Star Schema design
+* Customer and product dimensions
+* Sales fact modelling
+* Analytical views
+* Stored procedures for automated transformations
 
-The final analytical model enables efficient querying and supports business reporting and analysis.
-
----
-
-# Data Architecture
+### Architecture
 
 ![Data Architecture](Images/data_architecture.png)
 
-The project follows a layered data architecture where each stage has a dedicated responsibility:
+The project separates the warehouse into three processing layers:
 
-### Bronze Layer: Raw Data Ingestion
+* **Bronze:** Raw source data ingestion
+* **Silver:** Cleaning, transformation, and validation
+* **Gold:** Business-ready analytical views
 
-The Bronze layer stores source data with minimal transformation.
+### Technology Stack
 
-Key responsibilities:
-
-- Import CRM and ERP CSV files into SQL Server
-- Preserve original source structure
-- Provide the foundation for downstream processing
-
-Implementation:
-
-- SQL DDL scripts
-- Automated loading stored procedures
+**SQL Server · SQL · ETL · Data Warehousing · Star Schema · Stored Procedures · Git**
 
 ---
 
-### Silver Layer: Data Cleaning & Transformation
-
-The Silver layer prepares raw data for analytical consumption.
-
-Key responsibilities:
-
-- Data cleansing
-- Standardization
-- Data type corrections
-- Handling inconsistencies
-- Applying transformation logic
-- Data quality validation
-
-Implementation:
-
-- SQL transformation procedures
-- Validation checks
-
----
-
-### Gold Layer: Analytical Data Model
-
-![Data Flow](Images/data_flow.png)
-
-The Gold layer provides business-ready analytical views built from validated Silver layer data.
-
-The model follows Star Schema principles and contains:
-
-### Dimension Views
-
-**Customer Dimension**
-- Integrates customer information from CRM and ERP sources
-- Applies business rules for attribute consistency
-- Creates surrogate customer keys
-
-**Product Dimension**
-- Combines product and category information
-- Creates analytical product attributes
-
-### Fact View
-
-**Sales Fact**
-- Contains transactional sales information
-- Links customer and product dimensions
-- Supports sales performance analysis
-
----
-
-# ETL Pipeline
-
-![ETL Pipeline](Images/ETL.png)
-
-The data pipeline automates the movement of data through different warehouse layers.
-
-The implementation includes:
-
-### Bronze Loading
-
-- Loads raw CSV source files into SQL Server
-- Maintains source-level data structure
-
-### Silver Transformation
-
-- Cleans and standardizes raw datasets
-- Applies transformation rules
-- Validates data consistency
-
-### Gold Modelling
-
-- Creates analytical views
-- Combines multiple Silver layer sources
-- Produces reporting-ready datasets
-
----
-
-# Data Integration
-
-![Data Integration](Images/data_integration.png)
-
-The project integrates multiple operational data sources into a unified analytical model.
-
-Key implementation aspects:
-
-- Multi-source data integration
-- Relational data modelling
-- Transformation pipelines
-- Business logic implementation
-
-The Gold layer combines information from different Silver layer entities to create consistent analytical datasets.
-
----
-
-# Data Modelling
-
-![Data Model](Images/data_model.png)
-
-The analytical model follows a Star Schema design, separating descriptive entities from transactional information.
-
-## Dimension Views
-
-### Customer Dimension
-
-- Customer attributes
-- Geographic information
-- Demographic information
-- Customer identifiers
-
-### Product Dimension
-
-- Product attributes
-- Product categories
-- Product lifecycle information
-
-## Fact View
-
-### Sales Fact
-
-- Sales transactions
-- Order information
-- Revenue metrics
-- Quantity and pricing information
-
-This structure enables efficient analytical queries and simplifies downstream reporting.
-
----
-
-# Data Quality
-
-Data quality validation was implemented throughout the transformation process to ensure reliable analytical outputs.
-
-Validation checks include:
-
-- Duplicate record detection
-- Null value validation
-- Data consistency checks
-- Business rule validation
-- Gold layer output verification
-
-These checks ensure that downstream analysis is based on accurate and trustworthy datasets.
-
----
-
-# SQL Engineering Implementation
-
-The project uses SQL scripts and stored procedures to automate warehouse creation and transformation workflows.
-
-Implemented components include:
-
-- Bronze layer database objects
-- Bronze loading procedure
-- Silver layer transformation procedure
-- Gold layer analytical views
-
-The implementation demonstrates practical experience with:
-
-- ETL development
-- SQL transformation logic
-- Stored procedures
-- Data warehouse design
-- Analytical modelling
-
----
-
-# Technology Stack
-
-- SQL Server
-- SQL
-- Data Warehousing
-- ETL Pipelines
-- Medallion Architecture
-- Star Schema Modelling
-- Stored Procedures
-- Data Quality Validation
-- Git
-
----
-
-# Skills Demonstrated
-
-- Data Warehouse Design
-- ETL Development
-- SQL Development
-- Dimensional Modelling
-- Data Transformation
-- Data Quality Engineering
-- Analytics Engineering
-- Database Design
-- Multi-source Data Integration
+# 🛠️ Technical Skills
+
+### Data Engineering
+
+* Data Ingestion
+* ETL / ELT Pipelines
+* Data Warehousing
+* Dimensional Modelling
+* Star Schema Design
+* Data Quality Engineering
+* Source-to-Target Reconciliation
+* Multi-source Data Integration
+
+### Technologies
+
+* **Python**
+* **SQL**
+* **PostgreSQL**
+* **DuckDB**
+* **SQL Server**
+* **Pandas**
+* **Git / GitHub**
+
+### Engineering Practices
+
+* Layered Data Architecture
+* Source Data Preservation
+* Data Validation
+* Anomaly Investigation
+* Grain Management
+* Reusable Analytical Models
+* Reproducible Data Pipelines
