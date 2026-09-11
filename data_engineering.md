@@ -42,7 +42,7 @@ The project focuses on building a reliable data pipeline while preserving source
 
 ### Architecture
 
-![NYC TLC Data Engineering Architecture](images/nyc_tlc_full_pipeline.png)
+![NYC TLC Data Engineering Architecture](Images/nyc_tlc_full_pipeline.png)
 
 **Source Data → Python + DuckDB → PostgreSQL Staging → Cleaned → Gold Dimensional Model → Analytics**
 
