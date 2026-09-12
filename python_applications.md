@@ -7,6 +7,8 @@ This section showcases Python-based applications developed for data analysis, vi
 
 The projects demonstrate my experience in building data products using **Python, Streamlit, SQL, data processing libraries, and visualization frameworks** to transform raw data into meaningful and accessible insights.
 
+# 1. DataSense – Interactive SQL Data Analysis Platform
+
 <div style="text-align:center;">
     <img src="Images/datasense.JPG" 
          style="max-width:100%; height:auto; box-shadow:0 4px 4px rgba(0,0,0,0.1);">
@@ -15,7 +17,7 @@ The projects demonstrate my experience in building data products using **Python,
 
 ---
 
-# 1. DataSense – Interactive SQL Data Analysis Platform
+
 
 **GitHub:** [DataSense](https://github.com/wahidupal/DataSense)
 
