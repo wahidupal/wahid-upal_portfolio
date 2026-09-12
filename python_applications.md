@@ -91,7 +91,9 @@ The project follows a **SQL-first analytics approach**, combining exploratory da
 
 # 2. TradeLens – Interactive Stock Market Analytics Platform
 
-<div style="background: url('Images/TradeLense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 200px 0; background-color: black;">
+<div style="text-align:center;">
+    <img src="Images/TradeLense.PNG" 
+         style="max-width:100%; height:auto; box-shadow:0 4px 4px rgba(0,0,0,0.1);">
 </div>
 
 
