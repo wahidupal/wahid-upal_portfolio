@@ -3,17 +3,15 @@ title: 🐍 Python Applications
 layout: page
 ---
 
+This section showcases Python-based applications developed for data analysis, visualization, automation, and interactive analytics.
+
+The projects demonstrate my experience in building data products using **Python, Streamlit, SQL, data processing libraries, and visualization frameworks** to transform raw data into meaningful and accessible insights.
+
 <div style="text-align:center;">
     <img src="Images/datasense.JPG" 
          style="max-width:100%; height:auto; box-shadow:0 4px 4px rgba(0,0,0,0.1);">
 </div>
 
-
-# Python Applications
-
-This section showcases Python-based applications developed for data analysis, visualization, automation, and interactive analytics.
-
-The projects demonstrate my experience in building data products using **Python, Streamlit, SQL, data processing libraries, and visualization frameworks** to transform raw data into meaningful and accessible insights.
 
 ---
 
@@ -89,11 +87,11 @@ The project follows a **SQL-first analytics approach**, combining exploratory da
 
 ---
 
+# 2. TradeLens – Interactive Stock Market Analytics Platform
+
 <div style="background: url('Images/TradeLense.PNG') no-repeat center center; background-size: contain; box-shadow: 0 4px 4px rgba(0,0,0,0.1); text-align: center; padding: 200px 0; background-color: black;">
 </div>
 
-
-# 2. TradeLens – Interactive Stock Market Analytics Platform
 
 **GitHub:** [TradeLens](https://github.com/wahidupal/TradeLens)
 
