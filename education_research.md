@@ -71,8 +71,6 @@ The project included:
 
 ## Relevant Coursework
 
-## Relevant Coursework
-
 ### Microelectronics & Engineering
 
 * Microsystem Engineering
