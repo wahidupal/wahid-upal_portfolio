@@ -5,7 +5,7 @@ layout: page
 
 # Education & Research
 
-My academic background combines engineering, data analytics, and software development. During my Master's studies, I increasingly focused on applying data science techniques to solve real-world operational problems while developing practical software tools to support data collection, validation, and analysis.
+My academic background combines **Electrical and Electronic Engineering, Microelectronics and Microsystems Engineering, data analytics, and software development**. During my Master's studies, I increasingly focused on applying programming, data analysis, and statistical methods to real-world engineering and operational problems while developing practical tools for data collection, validation, and analysis.
 
 ---
 
@@ -15,7 +15,7 @@ My academic background combines engineering, data analytics, and software develo
 
 **Graduated:** August 2025
 
-Although my degree is in engineering, my academic work became heavily focused on data analytics, software development, and applied data science. Throughout my Master's, I combined statistical analysis, database development, and Python programming to solve practical engineering problems using real-world datasets.
+My Master's studies covered microelectronics, semiconductor technology, microsystems, embedded systems, electronic devices and circuits, communication and signal processing, computer vision, and pattern recognition. Alongside this engineering foundation, my academic work increasingly involved Python programming, databases, data analysis, and software-based tools for solving practical problems.
 
 ## Master's Thesis
 
@@ -71,10 +71,25 @@ The project included:
 
 ## Relevant Coursework
 
-- Business Data Science
-- Pattern Recognition
-- Digital Image Analysis
-- 3D Computer Vision
+## Relevant Coursework
+
+### Microelectronics & Engineering
+
+* Microsystem Engineering
+* Microsystem Technology
+* Semiconductor Technology
+* Advanced IC Design
+* CMOS Nanoelectronics
+* Electronic Devices and Circuits
+* Embedded Systems
+
+### Data, Signal Processing & Computing
+
+* Communication and Signal Processing
+* Communication Networks
+* Pattern Recognition and Data Compression
+* Digital Image Analysis
+* 3D Computer Vision
 
 ---
 
